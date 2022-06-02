@@ -8,7 +8,7 @@
         </mat-form-field><button mat-raised-button (click)="getWeather( page.searchString )" type="submit">Get Weather</button>
       </div>
     </form>
-    <bh-weatherCard></bh-weatherCard>
-    <bh-logPage></bh-logPage>
+    <bh-weatherCard [showCard]="page.showCard" [weatherdata]=" page.weatherdata" (log)="updateLog( $event )" #weatherView="#weatherView"></bh-weatherCard>
+    <bh-logPage [logArray]="page.logArray "></bh-logPage>
   </div>
 </div>

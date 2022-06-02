@@ -1,1 +1,7 @@
-{"classes":[]}
+{
+    "classes": [
+        "weathers",
+        "weather-card",
+        "get-weather-button"
+    ]
+}

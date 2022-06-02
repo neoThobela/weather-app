@@ -522,7 +522,7 @@
                     },
                     {
                         "_key": "[showCard]",
-                        "_value": "",
+                        "_value": "page.showCard",
                         "_type": "kv",
                         "_attrDef": "p",
                         "_complexity": "advanced",
@@ -531,7 +531,7 @@
                     },
                     {
                         "_key": "[weatherdata]",
-                        "_value": "",
+                        "_value": " page.weatherdata",
                         "_type": "kv",
                         "_attrDef": "p",
                         "_complexity": "advanced",
@@ -540,12 +540,28 @@
                     },
                     {
                         "_key": "(log)",
-                        "_value": "",
+                        "_value": "updateLog( $event )",
                         "_type": "kv",
                         "_attrDef": "p",
                         "_complexity": "advanced",
                         "displayAs": "log",
-                        "attrType": "OUTPUT"
+                        "attrType": "OUTPUT",
+                        "_customAttributeFlag": "flowpicker",
+                        "objValue": {
+                            "nodeID": "sd_xh4b1nYV23Kq58VV",
+                            "functionName": "updateLog",
+                            "activeTree": "pages",
+                            "z": "sd_Y9j8akq1eKwFIskd",
+                            "input": [
+                                " $event "
+                            ]
+                        }
+                    },
+                    {
+                        "_key": "#weatherView",
+                        "_value": "#weatherView",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ]
             },
@@ -575,7 +591,7 @@
                     },
                     {
                         "_key": "[logArray]",
-                        "_value": "",
+                        "_value": "page.logArray ",
                         "_type": "kv",
                         "_attrDef": "p",
                         "_complexity": "advanced",

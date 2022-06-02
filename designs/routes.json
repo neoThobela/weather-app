@@ -1,9 +1,14 @@
 {
     "routes": [
         {
+            "path": "weather",
+            "component": "weatherSearchComponent"
+        },
+        {
             "path": "''",
-            "redirectTo": "",
-            "pathMatch": "full"
+            "redirectTo": "weather",
+            "pathMatch": "full",
+            "default": true
         },
         {
             "path": "**",
