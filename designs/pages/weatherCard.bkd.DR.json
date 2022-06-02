@@ -150,6 +150,12 @@
                         "_value": "",
                         "_type": "kv",
                         "_attrDef": "p"
+                    },
+                    {
+                        "_key": "*ngIf",
+                        "_value": "showCard",
+                        "_type": "kv",
+                        "_attrDef": "c"
                     }
                 ],
                 "8b207991-cfa0-0d9c-4ac0-3f3be7338ada": {
@@ -172,7 +178,7 @@
                         },
                         {
                             "_key": "Title",
-                            "_value": "{{page.localStorage.lastCity+ ' weather summary' | titlecase}} ",
+                            "_value": "{{page.localStorage.lastCity+ ' weather summary' | titlecase}}",
                             "_type": "a",
                             "_attrDef": "p",
                             "_useAsLabel": true
@@ -189,7 +195,6 @@
                     "paletteKey": "ng-card-content",
                     "parentEditorKey": "ae3546c2-6c0e-61d1-2b66-24d02724745b",
                     "isAdvancedChildComponent": true,
-                    "isCommented": "false",
                     "commentid": null,
                     "designerReference": [
                         {
@@ -214,7 +219,6 @@
                     "70fcd852-995e-af34-328d-44d4d6ad046c": {
                         "paletteKey": "FlexLayoutRow",
                         "parentEditorKey": "98c2b942-a483-1a52-e388-61f587107686",
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
@@ -276,7 +280,6 @@
                         "877fe465-5f09-3182-ddf8-45bf0a499465": {
                             "paletteKey": "FlexLayoutCol",
                             "parentEditorKey": "70fcd852-995e-af34-328d-44d4d6ad046c",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -344,7 +347,6 @@
                             "d7561376-8878-3e50-c2b1-0a92fd5ce39b": {
                                 "paletteKey": "NG-image",
                                 "parentEditorKey": "877fe465-5f09-3182-ddf8-45bf0a499465",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -414,7 +416,6 @@
                                 "paletteKey": "Html5",
                                 "parentEditorKey": "877fe465-5f09-3182-ddf8-45bf0a499465",
                                 "isAdvancedComponent": true,
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -602,7 +603,6 @@
                                     "paletteKey": "html-editor",
                                     "parentEditorKey": "fc8f5b69-c5a7-99f6-f4f4-3dce388c9c39",
                                     "isAdvancedChildComponent": true,
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {

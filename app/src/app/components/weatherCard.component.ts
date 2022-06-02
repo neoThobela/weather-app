@@ -71,6 +71,7 @@ export class weatherCardComponent {
   sd_OfOe7qIPwhasQXU2(bh) {
     try {
       this.page.localStorage = localStorage;
+      this.page.showCard = false;
       //appendnew_next_sd_OfOe7qIPwhasQXU2
       return bh;
     } catch (e) {

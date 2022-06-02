@@ -73,6 +73,13 @@
                     "type": "literal",
                     "value": "localStorage"
                 }
+            },
+            {
+                "textIp": "showCard",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "false"
+                }
             }
         ],
         "functionName": "sd_OfOe7qIPwhasQXU2",

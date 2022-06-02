@@ -1,7 +1,7 @@
 <div fxLayout="row wrap" style="height:100%;" fxLayoutAlign="center start" [fxShow]="true">
   <div fxLayout="column wrap" fxLayoutAlign="start none" [fxShow]="true">
-    <mat-card style="width:500px;">
-      <mat-card-title align="center">{{page.localStorage.lastCity+ &apos; weather summary&apos; | titlecase}} </mat-card-title>
+    <mat-card *ngIf="showCard" style="width:500px;">
+      <mat-card-title align="center">{{page.localStorage.lastCity+ &apos; weather summary&apos; | titlecase}}</mat-card-title>
 
       <mat-card-content>
         <div fxLayout="row wrap" fxLayoutGap=" 5px" fxLayoutAlign="space-evenly stretch" [fxShow]="true">
