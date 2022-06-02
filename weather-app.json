@@ -1,0 +1,13 @@
+{
+    "displayName": "weather-app",
+    "appName": "weather-app",
+    "description": "displays the weather details for a city",
+    "lastModified": "2022-06-02T08:46:28.713Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "classic",
+    "templateName": "blank",
+    "createDate": "2022-06-02T08:46:20.933Z",
+    "analyticsId": "948b6b19-cac3-dadd-3603-45d81e754bc9",
+    "createdStudioVersion": "8.1.1"
+}

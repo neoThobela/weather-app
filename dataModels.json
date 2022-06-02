@@ -1,0 +1,9 @@
+{
+    "8549c934-6c66-4287-2174-77e5ddae2f8d": {
+        "dataModelId": "8549c934-6c66-4287-2174-77e5ddae2f8d",
+        "name": "logobject",
+        "description": "captures the log info of the weather search",
+        "dataSource": "neutrinos-rt",
+        "fields": []
+    }
+}

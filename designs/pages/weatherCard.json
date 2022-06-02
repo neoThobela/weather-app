@@ -1,0 +1,89 @@
+[
+    {
+        "id": "sd_xh0jERYQuyE5OVLI",
+        "type": "tab",
+        "createdDate": "2022-06-02T09:16:13.959Z",
+        "label": "weatherCard",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "weatherCardComponent"
+    },
+    {
+        "id": "sd_GKOkNDUoybXhQjmP",
+        "type": "OnInit",
+        "z": "sd_xh0jERYQuyE5OVLI",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "on init",
+        "inputVariables": [
+            {
+                "key": "showCard",
+                "defaultValue": {
+                    "type": "any",
+                    "value": "false"
+                }
+            },
+            {
+                "key": "weatherdata",
+                "defaultValue": {
+                    "type": "any",
+                    "value": "{}"
+                }
+            }
+        ],
+        "localVariables": [],
+        "outputVariables": [
+            {
+                "key": "log",
+                "defaultValue": {
+                    "type": "any",
+                    "value": null
+                }
+            }
+        ],
+        "functionName": "onInit",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_OfOe7qIPwhasQXU2"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "weatherCardComponent"
+    },
+    {
+        "id": "sd_OfOe7qIPwhasQXU2",
+        "type": "PageVariables",
+        "z": "sd_xh0jERYQuyE5OVLI",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "localStorage",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "localStorage"
+                }
+            }
+        ],
+        "functionName": "sd_OfOe7qIPwhasQXU2",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]
